@@ -1,5 +1,5 @@
 :root{
-    --pink:#3F8740;
+    --Green:#3F8740;
 }
 
 *{
@@ -48,7 +48,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--pink);
+    background:var(--Green);
 }
 
 header{
@@ -80,7 +80,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color:var(--pink);
+    color:var(--Green);
 }
 
 header .icons a{
@@ -111,7 +111,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url('./images/fresh.jpg') no-repeat;
+    background:url('./images/fresh.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -234,7 +234,7 @@ header .fa-bars{
     top:1rem; left:1rem;
     padding:.7rem 1rem;
     font-size: 2rem;
-    color:var(--pink);
+    color:var(--Green);
     background:rgba(255, 51, 153,.05);
     z-index: 1;
     border-radius: .5rem;
@@ -252,7 +252,7 @@ header .fa-bars{
 }
 
 .products .box-container .box:hover .image img{
-    transform: scale(1.1);
+    transform: scale(2.1);
 }
 
 .products .box-container .box .image .icons{
@@ -270,7 +270,7 @@ header .fa-bars{
     line-height: 5rem;
     font-size: 2rem;
     width:50%;
-    background:var(--pink);
+    background:var(--Green);
     color:#fff;
 }
 
@@ -296,7 +296,7 @@ header .fa-bars{
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color:var(--pink);
+    color:var(--Green);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -345,7 +345,7 @@ header .fa-bars{
 }
 
 .contact .row form .box:focus{
-    border-color: var(--pink);
+    border-color: var(--Green);
 }
 
 .contact .row form textarea{
@@ -377,7 +377,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box a:hover{
-    color:var(--pink);
+    color:var(--Green);
     text-decoration: underline;
 }
 
